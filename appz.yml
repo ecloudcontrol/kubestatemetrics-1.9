@@ -17,4 +17,4 @@ deploy:
     - 8081
   
 properties:
-    revision : 1
+    revision : 2
