@@ -10,7 +10,7 @@ build:
     image_template: kubestatemetrics-1.9
 
 deploy:
-    context: alpha/DEV
+    context: kube-system
     replicas: 1
     port:
     - 8080
