@@ -1,0 +1,20 @@
+app:
+    name: kubestatemetrics
+    code: kubestatemetrics
+    notify: appzdev@cloudbourne.co
+
+build:
+    version: 1.9
+    env: DEV
+    build_file: none
+    image_template: kubestatemetrics-1.9
+
+deploy:
+    context: alpha/DEV
+    replicas: 1
+    port:
+    - 8080
+    - 8081
+  
+properties:
+    revision : 1
