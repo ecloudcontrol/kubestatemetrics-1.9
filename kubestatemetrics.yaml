@@ -74,4 +74,4 @@ subjects:
 - kind: ServiceAccount
   name: default
   # change namespace first
-  namespace: <prom-namespace>
+  namespace: alpha-dev
